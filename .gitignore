@@ -6,3 +6,5 @@ history
 node_modules/
 /genesis.custom.json
 DevelopmentChain/
+DevelopmentChain/address_book.json
+DevelopmentChain/dapps_history.json
