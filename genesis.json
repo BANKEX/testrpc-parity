@@ -1,0 +1,78 @@
+{
+  "name": "DevelopmentChain",
+  "engine": {
+    "instantSeal": null
+  },
+  "params": {
+    "gasLimitBoundDivisor": "0x0400",
+    "accountStartNonce": "0x0",
+    "maximumExtraDataSize": "0x20",
+    "minGasLimit": "0x1388",
+    "networkID" : "0x11",
+    "registrar" : "0x0000000000000000000000000000000000001337",
+    "eip150Transition": "0x0",
+    "eip160Transition": "0x0",
+    "eip161abcTransition": "0x0",
+    "eip161dTransition": "0x0",
+    "eip155Transition": "0x0",
+    "eip98Transition": "0x7fffffffffffff",
+    "eip86Transition": "0x7fffffffffffff",
+    "maxCodeSize": 24576,
+    "maxCodeSizeTransition": "0x0",
+    "eip140Transition": "0x0",
+    "eip211Transition": "0x0",
+    "eip214Transition": "0x0",
+    "eip658Transition": "0x0",
+    "wasmActivationTransition": "0x0"
+  },
+  "genesis": {
+    "seal": {
+      "generic": "0x0"
+    },
+    "difficulty": "0x20000",
+    "author": "0x0000000000000000000000000000000000000000",
+    "timestamp": "0x00",
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "extraData": "0x",
+    "gasLimit": "0x7A1200"
+  },
+  "accounts": {
+    "0000000000000000000000000000000000000001": { "balance": "1", "nonce": "0", "builtin": { "name": "ecrecover", "pricing": { "linear": { "base": 3000, "word": 0 } } } },
+    "0000000000000000000000000000000000000002": { "balance": "1", "nonce": "0", "builtin": { "name": "sha256", "pricing": { "linear": { "base": 60, "word": 12 } } } },
+    "0000000000000000000000000000000000000003": { "balance": "1", "nonce": "0", "builtin": { "name": "ripemd160", "pricing": { "linear": { "base": 600, "word": 120 } } } },
+    "0000000000000000000000000000000000000004": { "balance": "1", "nonce": "0", "builtin": { "name": "identity", "pricing": { "linear": { "base": 15, "word": 3 } } } },
+    "5ee9d66311f097b530042ad02a094160e899d13e": {
+      "balance": "1000000000000000000000000000000000000"
+    },
+    "f7e49462a2e4e567267e652609d85cc848af9a41": {
+      "balance": "1000000000000000000000000000000000000"
+    },
+    "a85f2bc63e3b269d562ed7b82c51426929a89f3a": {
+      "balance": "1000000000000000000000000000000000000"
+    },
+    "c6c2bfe802c1c7c95e3bfeae0aa3220290415cf0": {
+      "balance": "1000000000000000000000000000000000000"
+    },
+    "f0ce5cd92cfb505e67231a409f62d69be6f0e32a": {
+      "balance": "1000000000000000000000000000000000000"
+    },
+    "a2c380f2f27c2e400aadd2d9e37a38dcca9caaa9": {
+      "balance": "1000000000000000000000000000000000000"
+    },
+    "37b24d5bad5f29760c80a7bf8629c5fe7cfaa3f8": {
+      "balance": "1000000000000000000000000000000000000"
+    },
+    "74bff67501fe041ef3c9891d19402612df154200": {
+      "balance": "1000000000000000000000000000000000000"
+    },
+    "860ee6f764a02e680eae61d126f8318b742df14e": {
+      "balance": "1000000000000000000000000000000000000"
+    },
+    "795521614966a59d9f3aa142ad672ff415f90b79": {
+      "balance": "1000000000000000000000000000000000000"
+    }
+  },
+  "number": "0x0",
+  "gasUsed": "0x0",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+}

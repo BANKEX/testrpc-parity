@@ -1,0 +1,8 @@
+geth/
+geth.ipc
+history
+.idea/
+.DS_Store
+node_modules/
+/genesis.custom.json
+DevelopmentChain/
