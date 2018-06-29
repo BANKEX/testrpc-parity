@@ -19,4 +19,4 @@
 0. npm i -g testrpc-parity
 0. testrpc-parity
 
-
+Useful only with Parity 1.7.7 ( https://github.com/paritytech/parity/releases?after=v1.8.0 )
