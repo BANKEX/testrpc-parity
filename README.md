@@ -1,4 +1,18 @@
-### Список аккаунтов
+## Dependencies
+
+Parity 1.7.7 ( https://github.com/paritytech/parity/releases?after=v1.8.0 )
+
+
+## Quick start
+
+1. Install Parity 1.7.7
+0. add parity binary dir to your $PATH
+0. `npm i -g testrpc-parity`
+0. `testrpc-parity`
+
+
+## Accounts list
+
 | Account | Private Key |
 | ------ | ------ |
 | 0x19c3ee4435342b8e6fe3e18d6d1d0ec762baffad | 0xbb7b719667412ea1e47412f910b6d4c1c09b6fb586c0a9d2cb51ae844b8779fc |
@@ -12,11 +26,6 @@
 | 0x56c80739ac898d2d28f30e67e04902ae293a6a06 | 0x0ccedd490e0b0b4666c3bb03bfb5ac43b93de850262b30b150300e527439fded |
 | 0x1eea65ad4c6c0fdf73d5c253162678086ca62196 | 0xa5de7c3875b7434c670b5f1c857c85130686b75fa1c5e27de14e4053f7545509 |
 
-Пароля для keystore файлов нет: '' (пустая строка);
+Password for the keystore: '' (empty string);
 
-### Для старта ноды:
-0. Установить parity
-0. npm i -g testrpc-parity
-0. testrpc-parity
 
-Useful only with Parity 1.7.7 ( https://github.com/paritytech/parity/releases?after=v1.8.0 )
