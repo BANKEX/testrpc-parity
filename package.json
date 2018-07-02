@@ -1,6 +1,6 @@
 {
   "name": "testrpc-parity",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "BANKEX test parity node settings with prefunded accounts",
   "main": "index.js",
   "scripts": {
