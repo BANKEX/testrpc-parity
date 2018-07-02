@@ -70,7 +70,7 @@ function startGeth() {
 
     // child_process.execSync('"./transfer.sh"', {stdio: 'inherit'});
 
-    const command = `parity  --chain dev --db-path ${datadir} --keys-path ${datadir}keys --reseal-min-period 0 --gasprice 0 --network-id 5777 --rpcport 8545 --geth  --unlock 0x5ee9d66311f097b530042ad02a094160e899d13e,0xf7e49462a2e4e567267e652609d85cc848af9a41,0xa85f2bc63e3b269d562ed7b82c51426929a89f3a,0xc6c2bfe802c1c7c95e3bfeae0aa3220290415cf0,0xf0ce5cd92cfb505e67231a409f62d69be6f0e32a,0xa2c380f2f27c2e400aadd2d9e37a38dcca9caaa9,0x37b24d5bad5f29760c80a7bf8629c5fe7cfaa3f8,0x74bff67501fe041ef3c9891d19402612df154200,0x860ee6f764a02e680eae61d126f8318b742df14e,0x795521614966a59d9f3aa142ad672ff415f90b79 --password="${password}"`;
+    const command = `parity --chain dev --db-path ${datadir} --keys-path ${datadir}keys --reseal-min-period 0 --gasprice 0 --network-id 5777 --rpcport 8545 --geth  --unlock ${accounts.join(',')} --password="${password}"`;
 
     const gethExec = child_process.exec(command);
 
@@ -129,7 +129,7 @@ function startGeth() {
 }
 
 function unlockPrimaryAccount(callback) {
-    let unlockRequest = '{"method":"personal_unlockAccount","params":["0x00a329c0648769a73afac7f9381e08fb43dbea72","",null],"id":1,"jsonrpc":"2.0"}';
+    let unlockRequest = '{"method":"personal_unlockAccount","params":["0x00a329c0648769a73afac7f9381e08fb43dbea72","","0x1E13380"],"id":1,"jsonrpc":"2.0"}';
     const options = {
         host: 'localhost',
         port: 8545,
